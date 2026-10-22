@@ -1,0 +1,18 @@
+target/
+*.class
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Test output
+reports/
+screenshots/
+test-output/
+logs/
+
+# Downloaded third-party jar (fetched by pre-requisites/install-appian-selenium-api.sh)
+pre-requisites/*.jar
+
+# Secrets: real credentials never get committed, only the .example template does
+src/test/resources/credentials.properties
